@@ -2,7 +2,6 @@ let currentQuestionIndex = 0;
 let userAnswers = [];
 const questions = [];
 const quizDiv = document.getElementById("quiz");
-const feedbackDiv = document.getElementById("feedback");
 const resultDiv = document.getElementById("result");
 
 async function loadQuestions() {
