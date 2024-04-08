@@ -1,0 +1,102 @@
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#submitBtn {
+    width: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#quiz {
+    width: 50%;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: background-color 0.5s ease;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    background-color: #555;
+    color: #eee;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+#feedback {
+    margin-top: 20px;
+    display: none;
+    /* Initially hide */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 128, 0.3);
+
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 9999;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@keyframes correctAnswer {
+    0% {
+        background-color: #444;
+    }
+
+    50% {
+        background-color: rgba(0, 255, 0, 0.545);
+    }
+
+    100% {
+        background-color: #444;
+    }
+}
+
+@keyframes wrongAnswer {
+    0% {
+        background-color: #444;
+    }
+
+    50% {
+        background-color: rgba(168, 0, 0, 0.567);
+    }
+
+    100% {
+        background-color: #444;
+    }
+}
+

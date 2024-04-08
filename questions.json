@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What does npm stand for?",
+    "options": ["Node Package Manager", "Node Project Manager", "New Package Manager", "Node Program Manager"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a built-in module in Node.js?",
+    "options": ["http", "express", "mongoose", "fs"],
+    "answer": 0
+  },
+  {
+    "question": "What is the purpose of package.json in a Node.js project?",
+    "options": ["To define project dependencies and metadata", "To store JavaScript code", "To define API endpoints", "To manage database connections"],
+    "answer": 0
+  },
+  {
+    "question": "Which keyword is used to import modules in Node.js?",
+    "options": ["import", "require", "use", "import"],
+    "answer": 1
+  },
+  {
+    "question": "What tool can be used to manage multiple Node.js versions on a single machine?",
+    "options": ["npm", "nvm", "npx", "yarn"],
+    "answer": 1
+  },
+  {
+    "question": "Which event is emitted when an unhandled exception occurs in Node.js?",
+    "options": ["error", "exception", "unhandledException", "crash"],
+    "answer": 2
+  },
+  {
+    "question": "What is the default concurrency value for the 'async.eachLimit' function in the 'async' module?",
+    "options": ["1", "5", "10", "100"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is NOT a core module in Node.js?",
+    "options": ["fs", "os", "express", "path"],
+    "answer": 2
+  },
+  {
+    "question": "What is the purpose of the 'fs' module in Node.js?",
+    "options": ["To perform file system operations", "To create web servers", "To interact with databases", "To handle HTTP requests"],
+    "answer": 0
+  },
+  {
+    "question": "What is the Node.js package manager?",
+    "options": ["npm", "pip", "yarn", "nvm"],
+    "answer": 0
+  },
+  {
+    "question": "What is the correct way to install a Node.js package globally using npm?",
+    "options": ["npm install <package-name>", "npm install -g <package-name>", "npm install --global <package-name>", "npm install -S <package-name>"],
+    "answer": 1
+  },
+  {
+    "question": "Which method is used to listen for HTTP requests in Node.js?",
+    "options": ["listen()", "handle()", "serve()", "createServer()"],
+    "answer": 3
+  }
+]
